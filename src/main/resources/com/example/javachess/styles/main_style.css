@@ -1,0 +1,60 @@
+.light-tile {
+    -fx-background-color: #f0d9b5;
+}
+
+.dark-tile {
+    -fx-background-color: #b58863;
+}
+
+.tile-hover {
+    -fx-border-color: linear-gradient(#BDE2FF, #6FBEFF), rgba(255,255,255,0.55);
+    -fx-border-width: 2.2, 1;
+    -fx-border-insets: 0, 2;
+    -fx-border-style: solid, solid;
+    -fx-cursor: hand;
+}
+
+.move-target {
+    -fx-background-color: #CFE9FF;
+}
+
+.capture-target {
+    -fx-background-color: #FFD6D6;
+}
+
+.selected-tile {
+    -fx-border-color: linear-gradient(#FFD36E, #FFB200), rgba(255,255,255,0.65);
+    -fx-border-width: 2.4, 1;
+    -fx-border-insets: 0, 2;
+    -fx-border-style: solid, solid;
+}
+
+.checkmate-overlay {
+    -fx-background-color: rgba(0, 0, 0, 0.6);
+}
+
+.checkmate-text {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.restart-button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 18 10 18;
+    -fx-background-color: linear-gradient(#6FCF97, #27AE60);
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 8, 0.0, 0, 3);
+    -fx-cursor: hand;
+}
+
+.restart-button:hover {
+    -fx-background-color: linear-gradient(#7FE8A8, #2EC96A);
+}
+
+.restart-button:pressed {
+    -fx-background-color: linear-gradient(#57B981, #1F8E4A);
+}
